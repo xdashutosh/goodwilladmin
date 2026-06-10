@@ -1,0 +1,189 @@
+<svg width="1200" height="1400" viewBox="0 0 1200 1400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Goodwill Printers — diary and print manufacturing illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="1400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16235c"/>
+      <stop offset="0.55" stop-color="#1b2e74"/>
+      <stop offset="1" stop-color="#203090"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2fb"/>
+    </linearGradient>
+    <linearGradient id="paperWarm" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fdfaf2"/>
+      <stop offset="1" stop-color="#f3edda"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2b4cdb"/>
+      <stop offset="1" stop-color="#1e3bb8"/>
+    </linearGradient>
+    <linearGradient id="coverB" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3a78f0"/>
+      <stop offset="1" stop-color="#2b4cdb"/>
+    </linearGradient>
+    <linearGradient id="roller" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5d6bb0"/>
+      <stop offset="0.5" stop-color="#39468a"/>
+      <stop offset="1" stop-color="#2a356e"/>
+    </linearGradient>
+    <radialGradient id="glowGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffcf5c" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffcf5c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5a8bff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#5a8bff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.4" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="34" flood-color="#0a1130" flood-opacity="0.45"/>
+    </filter>
+    <filter id="softSm" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0a1130" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="1400" fill="url(#bg)"/>
+  <rect width="1200" height="1400" fill="url(#dots)"/>
+
+  <!-- Ambient glows -->
+  <circle cx="190" cy="240" r="360" fill="url(#glowBlue)"/>
+  <circle cx="1030" cy="1180" r="420" fill="url(#glowGold)"/>
+
+  <!-- Decorative orbit rings -->
+  <g stroke="#ffffff" stroke-opacity="0.10" fill="none">
+    <circle cx="1010" cy="250" r="150"/>
+    <circle cx="1010" cy="250" r="92"/>
+    <circle cx="170" cy="1170" r="120"/>
+  </g>
+
+  <!-- Faint background sheets -->
+  <g opacity="0.18">
+    <rect x="150" y="300" width="430" height="560" rx="20" fill="#ffffff" transform="rotate(-13 365 580)"/>
+    <rect x="640" y="340" width="430" height="560" rx="20" fill="#ffffff" transform="rotate(11 855 620)"/>
+  </g>
+
+  <!-- ===== Printing press roller feeding a printed sheet ===== -->
+  <g transform="translate(600 470)">
+    <!-- back roller -->
+    <g filter="url(#softSm)">
+      <rect x="-330" y="-46" width="660" height="92" rx="46" fill="url(#roller)"/>
+      <ellipse cx="-330" cy="0" rx="26" ry="46" fill="#262f63"/>
+      <ellipse cx="330" cy="0" rx="26" ry="46" fill="#6675bf" opacity="0.7"/>
+      <rect x="-330" y="-46" width="660" height="20" rx="10" fill="#ffffff" opacity="0.14"/>
+    </g>
+    <!-- spindle caps -->
+    <circle cx="-360" cy="0" r="22" fill="#11183c"/>
+    <circle cx="360" cy="0" r="22" fill="#11183c"/>
+    <circle cx="-360" cy="0" r="9" fill="#3a78f0"/>
+    <circle cx="360" cy="0" r="9" fill="#3a78f0"/>
+  </g>
+
+  <!-- Printed sheet emerging -->
+  <g filter="url(#soft)" transform="translate(600 760) rotate(-2)">
+    <rect x="-250" y="-260" width="500" height="600" rx="14" fill="url(#paper)"/>
+    <!-- CMYK registration bars -->
+    <rect x="-210" y="-220" width="60" height="16" rx="4" fill="#19c3e6"/>
+    <rect x="-142" y="-220" width="60" height="16" rx="4" fill="#ec5aa6"/>
+    <rect x="-74" y="-220" width="60" height="16" rx="4" fill="#ffd23f"/>
+    <rect x="-6" y="-220" width="60" height="16" rx="4" fill="#3a3f55"/>
+    <!-- text lines -->
+    <g fill="#c9d3ec">
+      <rect x="-210" y="-170" width="420" height="14" rx="7"/>
+      <rect x="-210" y="-138" width="380" height="14" rx="7"/>
+      <rect x="-210" y="-106" width="410" height="14" rx="7"/>
+    </g>
+    <!-- highlighted brand block -->
+    <rect x="-210" y="-58" width="220" height="70" rx="10" fill="#e3e9ff"/>
+    <rect x="-188" y="-40" width="120" height="14" rx="7" fill="#2b4cdb"/>
+    <rect x="-188" y="-14" width="170" height="10" rx="5" fill="#9fb2ef"/>
+    <g fill="#c9d3ec">
+      <rect x="40" y="-46" width="170" height="12" rx="6"/>
+      <rect x="40" y="-20" width="150" height="12" rx="6"/>
+      <rect x="40" y="6" width="170" height="12" rx="6"/>
+    </g>
+    <g fill="#d7deef">
+      <rect x="-210" y="46" width="420" height="11" rx="6"/>
+      <rect x="-210" y="74" width="420" height="11" rx="6"/>
+      <rect x="-210" y="102" width="300" height="11" rx="6"/>
+      <rect x="-210" y="150" width="420" height="11" rx="6"/>
+      <rect x="-210" y="178" width="360" height="11" rx="6"/>
+    </g>
+  </g>
+
+  <!-- ===== Stack of finished diaries ===== -->
+  <g transform="translate(560 1080)">
+    <!-- diary 3 (bottom) -->
+    <g filter="url(#soft)">
+      <rect x="-300" y="120" width="600" height="120" rx="16" fill="url(#coverB)"/>
+      <rect x="-300" y="120" width="34" height="120" rx="14" fill="#16235c"/>
+      <rect x="-250" y="158" width="300" height="14" rx="7" fill="#ffffff" opacity="0.85"/>
+      <rect x="-250" y="186" width="200" height="10" rx="5" fill="#ffffff" opacity="0.45"/>
+    </g>
+    <!-- diary 2 (middle) -->
+    <g filter="url(#softSm)" transform="translate(36 0)">
+      <rect x="-300" y="0" width="600" height="120" rx="16" fill="url(#cover)"/>
+      <rect x="-300" y="0" width="34" height="120" rx="14" fill="#16235c"/>
+      <rect x="-250" y="40" width="340" height="14" rx="7" fill="#ffffff" opacity="0.85"/>
+      <rect x="-250" y="68" width="220" height="10" rx="5" fill="#ffffff" opacity="0.45"/>
+    </g>
+    <!-- diary 1 (top) with closed pages + ribbon -->
+    <g filter="url(#soft)" transform="translate(-18 -140)">
+      <rect x="-300" y="0" width="600" height="130" rx="18" fill="url(#paperWarm)"/>
+      <!-- page edges -->
+      <rect x="-300" y="0" width="600" height="130" rx="18" fill="none"/>
+      <g stroke="#d9cfa6" stroke-width="2" opacity="0.8">
+        <line x1="-292" y1="22" x2="300" y2="22"/>
+        <line x1="-292" y1="40" x2="300" y2="40"/>
+        <line x1="-292" y1="58" x2="300" y2="58"/>
+        <line x1="-292" y1="76" x2="300" y2="76"/>
+        <line x1="-292" y1="94" x2="300" y2="94"/>
+        <line x1="-292" y1="112" x2="300" y2="112"/>
+      </g>
+      <!-- spine cover wrap -->
+      <rect x="-318" y="-12" width="120" height="154" rx="18" fill="url(#cover)"/>
+      <rect x="-318" y="-12" width="120" height="154" rx="18" fill="#1e3bb8" opacity="0.0"/>
+      <!-- bookmark ribbon -->
+      <path d="M150 0 H198 V96 L174 76 L150 96 Z" fill="#ffcf5c"/>
+      <path d="M150 0 H174 V86 L150 96 Z" fill="#f5b733"/>
+    </g>
+  </g>
+
+  <!-- ===== Floating ink drops (CMYK) ===== -->
+  <g filter="url(#softSm)">
+    <g transform="translate(255 560)">
+      <path d="M0 -54 C30 -10 44 8 44 30 A44 44 0 1 1 -44 30 C-44 8 -30 -10 0 -54 Z" fill="#19c3e6"/>
+      <ellipse cx="-14" cy="28" rx="12" ry="16" fill="#ffffff" opacity="0.35"/>
+    </g>
+    <g transform="translate(930 640) scale(0.8)">
+      <path d="M0 -54 C30 -10 44 8 44 30 A44 44 0 1 1 -44 30 C-44 8 -30 -10 0 -54 Z" fill="#ec5aa6"/>
+      <ellipse cx="-14" cy="28" rx="12" ry="16" fill="#ffffff" opacity="0.35"/>
+    </g>
+    <g transform="translate(310 940) scale(0.7)">
+      <path d="M0 -54 C30 -10 44 8 44 30 A44 44 0 1 1 -44 30 C-44 8 -30 -10 0 -54 Z" fill="#ffd23f"/>
+      <ellipse cx="-14" cy="28" rx="12" ry="16" fill="#ffffff" opacity="0.45"/>
+    </g>
+  </g>
+
+  <!-- Pencil accent -->
+  <g transform="translate(905 380) rotate(38)" filter="url(#softSm)">
+    <rect x="-16" y="-150" width="32" height="240" rx="6" fill="#ffd23f"/>
+    <rect x="-16" y="-150" width="32" height="240" rx="6" fill="#000000" opacity="0.0"/>
+    <rect x="-16" y="-150" width="6" height="240" fill="#f5b733"/>
+    <rect x="10" y="-150" width="6" height="240" fill="#ffe08a"/>
+    <path d="M-16 90 L0 132 L16 90 Z" fill="#f0dcc0"/>
+    <path d="M-7 116 L0 132 L7 116 Z" fill="#2a2f45"/>
+    <rect x="-16" y="-150" width="32" height="26" rx="6" fill="#ec5aa6"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#ffffff" opacity="0.85">
+    <path d="M740 250 l8 18 18 8 -18 8 -8 18 -8 -18 -18 -8 18 -8 z" opacity="0.7"/>
+    <path d="M210 760 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6 z" opacity="0.6"/>
+    <circle cx="1000" cy="540" r="6" opacity="0.5"/>
+    <circle cx="160" cy="430" r="5" opacity="0.5"/>
+  </g>
+</svg>
