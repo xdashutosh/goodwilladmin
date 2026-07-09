@@ -6,7 +6,9 @@ import { SkeletonTable } from '../components/Skeleton';
 
 const LIMIT = 20;
 const STATUSES = ['new', 'contacted', 'resolved'];
-const FRONTEND_URL = (import.meta.env.VITE_FRONTEND_URL || 'http://localhost:3000').replace(/\/$/, '');
+// Public storefront base for "View product" links. Override with VITE_FRONTEND_URL;
+// defaults to the live site so links never point at localhost in production.
+const FRONTEND_URL = (import.meta.env.VITE_FRONTEND_URL || 'https://www.plan-a-day.com').replace(/\/$/, '');
 const badgeClass = (s) => (s === 'new' ? 'badge-gold' : s === 'resolved' ? 'badge-green' : 'badge-blue');
 
 export default function Enquiries() {

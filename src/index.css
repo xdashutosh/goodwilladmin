@@ -436,6 +436,42 @@ textarea {
   margin-top: 0.25rem;
 }
 
+/* Section divider inside long forms */
+.form-section-head {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold-dark);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem;
+  margin: 1.75rem 0 1rem;
+}
+
+/* Repeatable list rows (highlights, specs, use-cases, FAQs) */
+.list-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.list-row input {
+  flex: 1;
+}
+
+.faq-row {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+  background: #fafbfc;
+}
+
+.faq-row .list-row {
+  margin-bottom: 0;
+}
+
 /* ---------- Badges ---------- */
 .badge {
   display: inline-block;
