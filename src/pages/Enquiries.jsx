@@ -95,7 +95,11 @@ export default function Enquiries() {
             <tbody>
               {rows.map((r) => (
                 <tr key={r.id}>
-                  <td><strong>{r.name}</strong>{r.company && <div className="muted" style={{ fontSize: '0.78rem' }}>{r.company}</div>}</td>
+                  <td>
+                    <strong>{r.name}</strong>
+                    {r.company && <div className="muted" style={{ fontSize: '0.78rem' }}>{r.company}</div>}
+                    {r.subject && <div className="muted" style={{ fontSize: '0.78rem' }}>{r.subject}</div>}
+                  </td>
                   <td>
                     <div>{r.email}</div>
                     {r.phone && <div className="muted" style={{ fontSize: '0.78rem' }}>{r.phone}</div>}
@@ -191,6 +195,7 @@ export default function Enquiries() {
           <p><strong>Email:</strong> {viewing.email}</p>
           {viewing.phone && <p><strong>Phone:</strong> {viewing.phone}</p>}
           {viewing.company && <p><strong>Company:</strong> {viewing.company}</p>}
+          {viewing.subject && <p><strong>Subject:</strong> {viewing.subject}</p>}
           <p><strong>Status:</strong>{' '}
             <select value={viewing.status} onChange={(e) => changeStatus(viewing, e.target.value)} style={{ width: 'auto', padding: '0.3rem 0.5rem' }}>
               {STATUSES.map((s) => <option key={s} value={s}>{s}</option>)}
