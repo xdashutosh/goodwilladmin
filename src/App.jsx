@@ -8,6 +8,7 @@ import Categories from './pages/Categories'
 import Products from './pages/Products'
 import ProductEdit from './pages/ProductEdit'
 import Enquiries from './pages/Enquiries'
+import Assets from './pages/Assets'
 import Settings from './pages/Settings'
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/products/new" element={<ProductEdit />} />
         <Route path="/products/:id" element={<ProductEdit />} />
         <Route path="/enquiries" element={<Enquiries />} />
+        <Route path="/assets" element={<Assets />} />
         <Route path="/settings" element={<Settings />} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />

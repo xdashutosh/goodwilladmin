@@ -6,6 +6,7 @@ import {
   Tag,
   Package,
   Mail,
+  Image as ImageIcon,
   Settings as SettingsIcon,
   LogOut,
   Menu,
@@ -18,6 +19,7 @@ const NAV = [
   { to: '/categories', label: 'Categories', icon: Tag },
   { to: '/products', label: 'Products', icon: Package },
   { to: '/enquiries', label: 'Enquiries', icon: Mail },
+  { to: '/assets', label: 'Assets', icon: ImageIcon },
   { to: '/settings', label: 'Settings', icon: SettingsIcon },
 ];
 
