@@ -7,9 +7,11 @@ import { SkeletonForm } from '../components/Skeleton';
 const TEXT_FIELDS = [
   { key: 'company_name', label: 'Company Name' },
   { key: 'brand_name', label: 'Brand Name' },
-  { key: 'contact_email', label: 'Contact Email' },
+  { key: 'contact_email', label: 'Contact Email', hint: 'Inbox that receives mail — every email link on the site opens this address' },
+  { key: 'display_email', label: 'Displayed Email', hint: 'Address shown on the website (e.g. contact@planaday.com). Leave empty to show contact@planaday.com' },
   { key: 'contact_phone', label: 'Contact Phone' },
   { key: 'whatsapp_number', label: 'WhatsApp Number (digits, with country code)', hint: 'e.g. 919810000000' },
+  { key: 'map_coordinates', label: 'Map Location (latitude, longitude)', hint: 'Office/factory pin for the maps on the Contact page and footer, e.g. 28.723707,77.163445' },
 ];
 
 const TEXTAREA_FIELDS = [
